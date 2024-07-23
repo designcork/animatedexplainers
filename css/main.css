@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
+@font-face {
+    font-family: 'DM Sans';
+    src: url('/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf');
+    font-weight: 100 200 300 400 500 600 700 800 900 1000;
+    font-style: normal;
+    font-display: swap;
+}
 @font-face {
     font-family: 'RL Madena';
     src: url('/fonts/RL-Madena.woff');
@@ -14,8 +19,8 @@
     --highlight-colour: #D62828;
     --white-colour: #EBE6E0;
     --black-colour:  rgb(8,8,8);
-    --primary-font: 'DM Sans';
-    --secondary-font: 'RL Madena';
+    --primary-font: 'DM Sans', sans-serif;
+    --secondary-font: 'RL Madena', serif;
 }
 
 
@@ -377,6 +382,7 @@ p.quote {
     height: 30vh;
     width: 100vw;
     margin: 0;
+    bottom: 0;
 }
 
 .home-text {
